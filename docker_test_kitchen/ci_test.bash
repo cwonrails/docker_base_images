@@ -1,4 +1,5 @@
-#!/bin/bash
+#!usr/bin/env bash
+
 set -euo pipefail
 
 ssh-keygen -y -f /root/.ssh/id_rsa > /root/.ssh/id_rsa.pub
